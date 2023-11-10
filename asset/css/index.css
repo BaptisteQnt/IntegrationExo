@@ -10,6 +10,11 @@
   font-family: "IstokWeb";
   src: url(../fonts/IstokWeb-Regular.ttf);
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .Inter {
   font-family: "Inter";
 }
@@ -32,12 +37,12 @@ body {
 
 .text-start {
   text-align: start;
-  margin-left: 1vh;
+  margin-left: 2vh;
 }
 
 .text-end {
   text-align: end;
-  margin-right: 1vh;
+  margin-right: 2vh;
 }
 
 .navbar {
@@ -130,7 +135,7 @@ body {
 }
 
 .cards_element_btn {
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
   background-color: #008080;
   color: white;

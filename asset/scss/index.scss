@@ -13,6 +13,8 @@
     src: url(../fonts/IstokWeb-Regular.ttf);
 }
 
+@import '_reset.scss';
+
 .Inter {
     font-family: "Inter";
 }
@@ -38,12 +40,12 @@ body {
 
 .text-start {
     text-align: start;
-    margin-left: 1vh;
+    margin-left: 2vh;
 }
 
 .text-end {
     text-align: end;
-    margin-right: 1vh;
+    margin-right: 2vh;
 }
 
 @import './header';
