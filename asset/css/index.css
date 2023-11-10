@@ -1,230 +1,203 @@
 @font-face {
-    font-family: 'Inter';
-    src: url(../fonts/Inter-Regular.ttf);
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.ttf);
 }
-
 @font-face {
-    font-family: 'Itim';
-    src: url(../fonts/Itim-Regular.ttf);
+  font-family: "Itim";
+  src: url(../fonts/Itim-Regular.ttf);
 }
-
 @font-face {
-    font-family: "IstokWeb";
-    src: url(../fonts/IstokWeb-Regular.ttf);
+  font-family: "IstokWeb";
+  src: url(../fonts/IstokWeb-Regular.ttf);
 }
-
 .Inter {
-    font-family: "Inter";
+  font-family: "Inter";
 }
 
-.Itim{
-    font-family: "Itim";
+.Itim {
+  font-family: "Itim";
 }
 
 .IstokWeb {
-    font-family: "IstokWeb";
+  font-family: "IstokWeb";
 }
 
 body {
-    margin: 0;
-    
+  margin: 0;
 }
 
-.header {
-    background-color:#87CEEB;
-    margin-top: 0;
-    display: flex; 
-    justify-content: space-between;
+.text-center {
+  text-align: center;
 }
 
+.text-start {
+  text-align: start;
+  margin-left: 1vh;
+}
+
+.text-end {
+  text-align: end;
+  margin-right: 1vh;
+}
+
+.navbar {
+  background-color: #87CEEB;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_titre {
+  margin: 1vh 2vh 1vh 2vh;
+  padding: 2;
+  color: #008080;
+}
 
 @media screen and (max-width: 700px) {
- 
-    .Onav {
-        /* display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap; */
-        display: none;
-    }
+  .navbar_composent {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; */
+    display: none;
+  }
+}
+@media screen and (min-width: 701px) {
+  .navbar_composent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #008080;
+  }
+  .navbar_item {
+    margin: 0vh 2vh;
+  }
+}
+.titre {
+  background-image: url(../img/Rectangle\ 3image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 2vh;
+  text-align: center;
+}
+
+.cards_titre {
+  background-color: #C3EAF7;
+  color: #008080;
+  padding: 5vh;
+  margin: 0;
+  text-align: center;
+}
+
+.cards_place {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #DFEFF5;
+  padding: 5vh;
+  text-align: center;
+}
+
+.cards_element_style {
+  border: black 2px solid;
+  border-radius: 15px;
+  background-color: #41B2BA;
+  margin: 2vh 2vh;
+  max-width: 25vh;
+}
+
+.cards_element_img {
+  margin: 2vh;
+  max-width: 20vh;
+}
+
+.service {
+  text-align: center;
+}
+
+.service_titre {
+  background-color: #C3EAF7;
+  padding: 5vh;
+  margin: -1vh 0vh;
+  color: #008080;
+}
+
+.service_space {
+  padding: 5vh;
+  background-color: #C3EAF7;
+}
+
+.cards_element_btn {
+  border-radius: 10px;
+  border: none;
+  background-color: #008080;
+  color: white;
+  text-align: end;
+}
+
+.cards_titre_underline {
+  background-color: #DFEFF5;
+  text-decoration: underline;
+  padding: 5vh;
+  margin: 0;
+  text-align: center;
+  color: #008080;
 }
 
 @media screen and (min-width: 701px) {
- 
-    .Onav {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap; 
-        color: #008080;
-    }
-
-    .ItemN {
-        margin: 0vh 2vh;
-    }
-
-    .Titre {
-        min-height: 25vh;
-        line-height: 15vh;
-        align-items: center;
-        font-size: 2em;
-    }
-
-    .dispo {
-        font-size: 2em;
-        padding: 8vh;
-    }
-
-    .styleCards {
-        min-width: 35vh;
-        max-height: 50vh;
-    }
-
-    .Voirp {
-        font-size: 2em;
-    }
-
-    .apS {
-        font-size: 2em;
-    }
-
-    .footer {
-        font-size: 2em;
-    }
-
-    .text2 {
-        font-size: 1em ;
-    }
-
-
-    .bouton {
-        min-width: 2em;
-        min-height: 2em;
-        font-size: 0.75em;
-    }
-
-    .allCards{
-        padding-bottom: 5vh;
-        background-color: #dfeff5;
-        
-
-    }
-
+  .titre {
+    min-height: 25vh;
+    line-height: 15vh;
+    align-items: center;
+    font-size: 2em;
+  }
+  .cards {
+    padding-bottom: 5vh;
+    background-color: #dfeff5;
+  }
+  .cards_titre {
+    font-size: 2em;
+    padding: 8vh;
+  }
+  .cards_element_style {
+    min-width: 35vh;
+    max-height: 50vh;
+  }
+  .cards_element_text {
+    font-size: 1em;
+  }
+  .cards_titre_underline {
+    font-size: 2em;
+  }
+  .service_titre {
+    font-size: 2em;
+  }
+  .cards_element_btn {
+    min-width: 2em;
+    min-height: 2em;
+    font-size: 0.75em;
+  }
 }
-
 @media screen and (min-width: 1200px) {
-    
-    .text2 {
-        font-size: 1.3em;
-        /* padding: 2vh; */
-    }
+  .cards_element_text {
+    font-size: 1.3em;
+    /* padding: 2vh; */
+  }
+}
+.footer {
+  background-color: #87CEEB;
+  color: #008080;
+  text-align: center;
+  font-weight: bold;
+  padding: 3vh;
 }
 
-
-.Tnav {
-    margin:  1vh 2vh 1vh 2vh;
-    padding: 2;
-    color: #008080;
+@media screen and (min-width: 701px) {
+  .footer {
+    font-size: 2em;
+  }
 }
 
-.Titre {
-    background-image: url(../img/Rectangle\ 3image.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 2vh;
-    text-align: center;
-}
-
-.dispo {
-    background-color: #C3EAF7;
-    color: #008080;
-    padding: 5vh;
-    margin: 0;
-    text-align: center;
-}
-
-.textS {
-    text-align: start;
-    margin-left: 1vh;
-}
-
-.textC{
-    text-align: center;
-}
-
-.textE {
-    text-align: end;
-    margin-right: 1vh;
-}
-
-.Cards{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    background-color:#DFEFF5 ;
-    padding: 5vh;
-    text-align: center;
-}
-
-.styleCards {
-    border: black 2px solid;
-    border-radius: 15px;
-    background-color: #41B2BA;
-    margin: 2vh 2vh;
-    max-width: 25vh;
-}
-
-.Voirp {
-    background-color:#DFEFF5;
-    text-decoration: underline;
-    padding: 5vh;
-    margin: 0;
-    text-align: center;
-    color: #008080;
-}
-
-.just {
-    padding: 5vh;
-    background-color: #C3EAF7;
-}
-
-.footer{
-    background-color: #87CEEB;
-    color: #008080;
-    text-align: center;
-    font-weight: bold;
-    padding: 3vh;
-}
-
-.imgCard {
-    margin: 2vh;
-    max-width: 20vh;
-}
-
-.bouton {
-    border-radius: 10px;
-    border: none;
-    background-color: #008080;
-    color: white;
-    text-align: end;
-}
-
-.ServCards {
-    text-align: center;
-}
-
-.apS {
-    background-color: #C3EAF7;
-    padding: 5vh;
-    margin: -1vh 0vh;
-    color: #008080;
-}
-
-
-.test {
-    text-wrap: wrap;
-    text-align: center;
-    max-width: 20vh;
-    text-align: center;
-}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,125 @@
+.titre {
+    background-image: url(../img/Rectangle\ 3image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 2vh;
+    text-align: center;
+}
+
+.cards_titre {
+    background-color: #C3EAF7;
+    color: #008080;
+    padding: 5vh;
+    margin: 0;
+    text-align: center;
+}
+
+.cards_place{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:#DFEFF5 ;
+    padding: 5vh;
+    text-align: center;
+}
+
+.cards_element_style {
+    border: black 2px solid;
+    border-radius: 15px;
+    background-color: #41B2BA;
+    margin: 2vh 2vh;
+    max-width: 25vh;
+}
+
+.cards_element_img {
+    margin: 2vh;
+    max-width: 20vh;
+}
+
+.service {
+    text-align: center;
+}
+
+.service_titre {
+    background-color: #C3EAF7;
+    padding: 5vh;
+    margin: -1vh 0vh;
+    color: #008080;
+}
+
+.service_space {
+    padding: 5vh;
+    background-color: #C3EAF7;
+}
+
+.cards_element_btn {
+    border-radius: 10px;
+    border: none;
+    background-color: #008080;
+    color: white;
+    text-align: end;
+}
+
+.cards_titre_underline {
+    background-color:#DFEFF5;
+    text-decoration: underline;
+    padding: 5vh;
+    margin: 0;
+    text-align: center;
+    color: #008080;
+}
+
+@media screen and (min-width: 701px) {
+ 
+
+    .titre {
+        min-height: 25vh;
+        line-height: 15vh;
+        align-items: center;
+        font-size: 2em;
+    }
+
+    .cards{
+        padding-bottom: 5vh;
+        background-color: #dfeff5;
+    }
+
+    .cards_titre {
+        font-size: 2em;
+        padding: 8vh;
+    }
+
+    .cards_element_style {
+        min-width: 35vh;
+        max-height: 50vh;
+    }
+
+    .cards_element_text {
+        font-size: 1em ;
+    }
+
+    .cards_titre_underline {
+        font-size: 2em;
+    }
+
+    .service_titre {
+        font-size: 2em;
+    }
+
+    .cards_element_btn {
+        min-width: 2em;
+        min-height: 2em;
+        font-size: 0.75em;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .cards_element_text {
+        font-size: 1.3em;
+        /* padding: 2vh; */
+    }
+}

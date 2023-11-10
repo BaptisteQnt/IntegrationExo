@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Itim';
+    src: url(../fonts/Itim-Regular.ttf);
+}
+
+@font-face {
+    font-family: "IstokWeb";
+    src: url(../fonts/IstokWeb-Regular.ttf);
+}
+
+.Inter {
+    font-family: "Inter";
+}
+
+.Itim{
+    font-family: "Itim";
+}
+
+.IstokWeb {
+    font-family: "IstokWeb";
+}
+
+body {
+    margin: 0;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+    margin-left: 1vh;
+}
+
+.text-end {
+    text-align: end;
+    margin-right: 1vh;
+}
+
+@import './header';
+
+@import './body';
+
+@import './footer';

@@ -1,0 +1,15 @@
+.footer{
+    background-color: #87CEEB;
+    color: #008080;
+    text-align: center;
+    font-weight: bold;
+    padding: 3vh;
+}
+
+@media screen and (min-width: 701px){
+
+    .footer {
+        font-size: 2em;
+    }
+
+}
