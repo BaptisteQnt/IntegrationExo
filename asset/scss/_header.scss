@@ -1,7 +1,5 @@
-$navbar_text-color : #008080; 
-
 .navbar {
-    background-color:#87CEEB;
+    background-color:$foothead;
     margin-top: 0;
     display: flex; 
     justify-content: space-between;

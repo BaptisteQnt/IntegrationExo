@@ -8,8 +8,8 @@
 }
 
 .cards_titre {
-    background-color: #C3EAF7;
-    color: #008080;
+    background-color:$back_title;
+    color: $navbar_text-color;
     padding: 5vh;
     margin: 0;
     text-align: center;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color:#DFEFF5 ;
+    background-color:$back_color ;
     padding: 5vh;
     text-align: center;
 }
@@ -42,7 +42,7 @@
 }
 
 .service_titre {
-    background-color: #C3EAF7;
+    background-color: $back_title;
     padding: 5vh;
     margin: -1vh 0vh;
     color: #008080;
@@ -50,24 +50,24 @@
 
 .service_space {
     padding: 5vh;
-    background-color: #C3EAF7;
+    background-color: $back_title;
 }
 
 .cards_element_btn {
     border-radius: 10px;
     border: none;
-    background-color: #008080;
+    background-color: $navbar_text-color;
     color: white;
     text-align: end;
 }
 
 .cards_titre_underline {
-    background-color:#DFEFF5;
+    background-color:$back_color;
     text-decoration: underline;
     padding: 5vh;
     margin: 0;
     text-align: center;
-    color: #008080;
+    color: $navbar_text-color;
 }
 
 @media screen and (min-width: 701px) {
@@ -82,7 +82,7 @@
 
     .cards{
         padding-bottom: 5vh;
-        background-color: #dfeff5;
+        background-color: $back_color;
     }
 
     .cards_titre {
